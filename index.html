@@ -1,0 +1,1098 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Edwin Matos | Mortgage Loan Officer | 222+ Lenders | IL IN WI | Bilingual</title>
+<meta name="description" content="Get the best mortgage rate from 222+ lenders. Purchase, refinance, ITIN, FHA, VA, DSCR and more. Bilingual service in IL, IN & WI. Book a free consultation.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,600;0,700;1,600&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --navy:#0B1E45;--gold:#B8832A;--gold2:#D4A853;--gold3:#F0D090;
+  --white:#FFFFFF;--off:#F8F7F5;--border:#E8E4DE;--text:#1F2937;--muted:#6B7280;
+  --green:#16A34A;--blue:#1D4ED8;
+}
+
+/* URGENCY BAR */
+.urg-bar{background:linear-gradient(90deg,#0B1E45,#142258);padding:9px 40px 9px 20px;text-align:center;font-size:13px;color:rgba(255,255,255,.9);position:relative;line-height:1.4}
+.urg-link{color:var(--gold2);font-weight:700;text-decoration:none}
+.urg-link:hover{text-decoration:underline}
+.urg-x{position:absolute;right:14px;top:50%;transform:translateY(-50%);background:none;border:none;color:rgba(255,255,255,.5);cursor:pointer;font-size:14px;padding:4px}
+.urg-x:hover{color:#fff}
+
+/* MOBILE BAR */
+@media(max-width:640px){
+  .mob-bar{display:flex!important}
+  .sticky-wrap{display:none!important}
+}
+.mob-bar{display:none;position:fixed;bottom:0;left:0;right:0;z-index:999;background:#fff;border-top:1px solid var(--border);padding:10px 12px;gap:8px;box-shadow:0 -4px 20px rgba(0,0,0,.1)}
+.mob-bar a{flex:1;text-align:center;padding:12px 8px;border-radius:8px;font:700 13px 'Inter',sans-serif;text-decoration:none}
+.mob-call{background:var(--navy);color:#fff}
+.mob-book{background:var(--gold);color:#fff}
+
+/* CALC SLIDER */
+.calc-slider{width:100%;-webkit-appearance:none;appearance:none;height:5px;border-radius:5px;background:rgba(255,255,255,.15);outline:none;cursor:pointer}
+.calc-slider::-webkit-slider-thumb{-webkit-appearance:none;appearance:none;width:20px;height:20px;border-radius:50%;background:var(--gold);cursor:pointer;box-shadow:0 2px 8px rgba(184,131,42,.4)}
+.calc-slider::-moz-range-thumb{width:20px;height:20px;border-radius:50%;background:var(--gold);cursor:pointer;border:none}
+@media(max-width:700px){.calc-grid{grid-template-columns:1fr!important}}
+
+/* FAQ */
+.faq-item{background:#fff;border:1.5px solid var(--border);border-radius:10px;margin-bottom:10px;overflow:hidden;transition:.2s;cursor:pointer}
+.faq-item:hover{border-color:var(--gold);box-shadow:0 2px 10px rgba(0,0,0,.06)}
+.faq-q{display:flex;justify-content:space-between;align-items:center;padding:18px 20px;font-weight:700;font-size:15px;color:var(--navy);gap:12px}
+.faq-icon{font-size:22px;color:var(--gold);font-weight:400;flex-shrink:0;transition:transform .2s}
+.faq-a{max-height:0;overflow:hidden;transition:max-height .35s ease;padding:0 20px;font-size:14px;color:var(--muted);line-height:1.75}
+.faq-a[style*="max-height"]:not([style*="max-height: 0"]) {padding-bottom:18px}
+
+/* LOAN CARDS */
+.lc[data-loan]::after{content:"Click to apply →";display:block;font-size:11px;font-weight:700;color:var(--gold);margin-top:8px;opacity:0;transition:.2s;letter-spacing:.5px}
+.lc[data-loan]:hover::after{opacity:1}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:'Inter',sans-serif;background:var(--white);color:var(--text);line-height:1.6;overflow-x:hidden}
+
+/* LANG BAR */
+.lb-bar{background:var(--navy);padding:8px 24px;display:flex;justify-content:flex-end;align-items:center;gap:8px;font-size:12px;color:rgba(255,255,255,.6)}
+.lb{background:none;border:1px solid rgba(255,255,255,.3);color:rgba(255,255,255,.8);padding:3px 12px;border-radius:20px;cursor:pointer;font:600 12px 'Inter',sans-serif;transition:.2s}
+.lb.on{background:var(--gold);border-color:var(--gold);color:#fff}
+.lb:hover:not(.on){border-color:rgba(255,255,255,.7);color:#fff}
+
+/* NAV */
+nav{background:#fff;border-bottom:1px solid var(--border);padding:14px 24px;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:12px;position:sticky;top:0;z-index:200;box-shadow:0 1px 8px rgba(0,0,0,.06)}
+.n1{font-family:'Cormorant Garamond',serif;font-size:22px;font-weight:700;color:var(--navy)}.n1 span{color:var(--gold)}
+.n2{font-size:11px;color:var(--muted);letter-spacing:.3px}
+.nav-r{display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+.nav-ph{color:var(--navy);text-decoration:none;font-weight:700;font-size:14px}
+.nav-ph:hover{color:var(--gold)}
+.btn{display:inline-block;font:700 13px 'Inter',sans-serif;padding:10px 22px;border-radius:7px;text-decoration:none;cursor:pointer;border:none;transition:.2s}
+.btn-g{background:var(--gold);color:#fff;box-shadow:0 2px 8px rgba(184,131,42,.25)}
+.btn-g:hover{background:var(--gold2);transform:translateY(-1px);box-shadow:0 4px 16px rgba(184,131,42,.35)}
+.btn-o{background:transparent;color:var(--navy);border:2px solid var(--navy)}
+.btn-o:hover{background:var(--navy);color:#fff}
+.btn-sm{padding:8px 16px;font-size:13px}
+
+/* HERO */
+.hero{padding:72px 24px 80px;background:#fff;border-bottom:1px solid var(--border)}
+.h-inner{max-width:1120px;margin:0 auto;display:grid;grid-template-columns:1fr 460px;gap:64px;align-items:center}
+.badge{display:inline-flex;align-items:center;gap:6px;background:#FEF3E2;border:1px solid #F6C86B;border-radius:20px;padding:5px 14px;font-size:12px;color:#92650A;font-weight:600;margin-bottom:20px}
+.hero h1{font-family:'Cormorant Garamond',serif;font-size:clamp(38px,4.8vw,62px);font-weight:700;line-height:1.06;color:var(--navy);margin-bottom:12px}
+.hero h1 em{font-style:italic;color:var(--gold);display:block}
+.hero-sub{font-size:17px;color:var(--muted);max-width:500px;margin-bottom:8px;line-height:1.75}
+.hero-whisper{font-size:14px;color:var(--gold2);font-style:italic;margin-bottom:32px}
+.h-stats{display:flex;gap:32px;margin-bottom:36px;flex-wrap:wrap;padding-bottom:28px;border-bottom:1px solid var(--border)}
+.h-stat-n{font-family:'Cormorant Garamond',serif;font-size:32px;font-weight:700;color:var(--navy);line-height:1}
+.h-stat-l{font-size:11px;color:var(--muted);text-transform:uppercase;letter-spacing:.5px;margin-top:2px}
+.h-ctas{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:18px}
+.h-ctas .btn{font-size:15px;padding:13px 26px}
+.h-trust{font-size:12px;color:var(--muted);display:flex;align-items:center;gap:6px}
+
+/* FORM CARD */
+.fc{background:#fff;border:1.5px solid var(--border);border-radius:14px;padding:30px 26px;box-shadow:0 6px 32px rgba(0,0,0,.09);position:relative;animation:float 5s ease-in-out infinite}
+.fc::before{content:'';position:absolute;top:0;left:0;right:0;height:4px;background:linear-gradient(90deg,var(--gold),var(--gold2));border-radius:14px 14px 0 0}
+.fc-title{font-family:'Cormorant Garamond',serif;font-size:21px;font-weight:700;color:var(--navy);margin-bottom:3px}
+.fc-sub{font-size:12px;color:var(--muted);margin-bottom:18px;padding-bottom:14px;border-bottom:1px solid var(--border)}
+.fg{display:flex;flex-direction:column;gap:4px;margin-bottom:11px}
+.fg label{font-size:11px;font-weight:700;color:var(--navy);letter-spacing:.5px;text-transform:uppercase}
+.fg input,.fg select{background:var(--off);border:1.5px solid var(--border);border-radius:7px;padding:10px 12px;font:400 14px 'Inter',sans-serif;color:var(--text);outline:none;transition:.2s;width:100%;appearance:none;-webkit-appearance:none}
+.fg select{background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' fill='none'%3E%3Cpath d='M1 1l5 5 5-5' stroke='%236B7280' stroke-width='1.5' stroke-linecap='round'/%3E%3C/svg%3E");background-repeat:no-repeat;background-position:right 12px center;padding-right:30px}
+.fg select option{background:#fff;color:var(--text)}
+.fg input:focus,.fg select:focus{border-color:var(--gold);background:#fff;box-shadow:0 0 0 3px rgba(184,131,42,.1)}
+.fg input::placeholder{color:#9CA3AF}
+.fg-row{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.sub-btn{width:100%;margin-top:4px;background:var(--gold);color:#fff;font:700 15px 'Inter',sans-serif;padding:14px;border-radius:8px;border:none;cursor:pointer;transition:.2s;letter-spacing:.2px;box-shadow:0 2px 10px rgba(184,131,42,.3)}
+.sub-btn:hover{background:var(--gold2);transform:translateY(-1px);box-shadow:0 4px 16px rgba(184,131,42,.4)}
+.fc-foot{text-align:center;font-size:11px;color:var(--muted);margin-top:9px}
+.sms-alt{display:block;margin-top:9px;text-align:center;color:var(--green);font-size:13px;font-weight:600;text-decoration:none;padding:9px;border:1.5px solid #DCFCE7;border-radius:7px;background:#F0FDF4;transition:.2s}
+.sms-alt:hover{background:#DCFCE7}
+
+/* TRUST BAR */
+.tb{background:var(--navy);padding:20px 24px}
+.tb-inner{max-width:1120px;margin:0 auto;display:flex;justify-content:center;gap:48px;flex-wrap:wrap}
+.tb-item{text-align:center}
+.tb-n{font-family:'Cormorant Garamond',serif;font-size:28px;font-weight:700;color:var(--gold2);line-height:1}
+.tb-l{font-size:11px;color:rgba(255,255,255,.55);letter-spacing:.8px;text-transform:uppercase;margin-top:2px}
+
+/* SECTIONS */
+section{padding:80px 24px}
+.si{max-width:1120px;margin:0 auto}
+.s-label{font-size:11px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:var(--gold);margin-bottom:10px}
+.s-title{font-family:'Cormorant Garamond',serif;font-size:clamp(28px,3.5vw,44px);font-weight:700;color:var(--navy);line-height:1.15;margin-bottom:14px}
+.s-title em{font-style:italic;color:var(--gold)}
+.s-sub{font-size:16px;color:var(--muted);max-width:540px;margin-bottom:48px;line-height:1.8}
+
+/* PROCESS */
+.proc-s{background:var(--off);border-top:1px solid var(--border);border-bottom:1px solid var(--border)}
+.proc-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:28px}
+.proc-card{background:#fff;border:1.5px solid var(--border);border-radius:12px;padding:28px 22px;transition:.2s}
+.proc-card:hover{border-color:var(--gold);box-shadow:0 4px 20px rgba(0,0,0,.07)}
+.proc-num{width:44px;height:44px;border-radius:50%;background:var(--navy);color:#fff;font-family:'Cormorant Garamond',serif;font-size:20px;font-weight:700;display:flex;align-items:center;justify-content:center;margin-bottom:16px}
+.proc-t{font-weight:700;font-size:15px;color:var(--navy);margin-bottom:8px}
+.proc-d{font-size:13px;color:var(--muted);line-height:1.65}
+
+/* WHY */
+.why-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(215px,1fr));gap:16px}
+.wc{background:var(--off);border:1.5px solid var(--border);border-radius:12px;padding:24px 20px;transition:.25s;cursor:default}
+.wc:hover{border-color:var(--gold);background:#fff;transform:translateY(-3px);box-shadow:0 8px 24px rgba(0,0,0,.07)}
+.wc-icon{font-size:26px;margin-bottom:10px}
+.wc-num{font-family:'Cormorant Garamond',serif;font-size:34px;font-weight:700;color:var(--gold);line-height:1;margin-bottom:2px}
+.wc-l{font-size:13px;font-weight:700;color:var(--navy);margin-bottom:5px}
+.wc-d{font-size:12px;color:var(--muted);line-height:1.6}
+
+/* LOANS */
+.loans-s{background:var(--off)}
+.loans-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:12px}
+.lc{background:#fff;border:1.5px solid var(--border);border-radius:10px;padding:18px 16px;transition:.2s;cursor:pointer}
+.lc:hover{border-color:var(--gold);box-shadow:0 3px 12px rgba(0,0,0,.06);transform:translateY(-2px)}.lc.selected{border-color:var(--gold);background:#FEF9F0;box-shadow:0 0 0 3px rgba(184,131,42,.15)}
+.lc.sp{border-color:#BFDBFE;background:#EFF6FF}
+.lc.sp .lc-n{color:var(--blue)}
+.lc-i{font-size:22px;margin-bottom:8px}
+.lc-n{font-weight:700;font-size:13px;color:var(--navy);margin-bottom:3px}
+.lc-d{font-size:12px;color:var(--muted);line-height:1.5}
+
+/* VS */
+.vs-s{background:#fff;border-top:1px solid var(--border)}
+.vs-grid{display:grid;grid-template-columns:1fr 1fr;gap:20px}
+.vs-card{border-radius:12px;padding:26px 22px}
+.vs-them{background:var(--off);border:1.5px solid var(--border)}
+.vs-you{background:#fff;border:2px solid var(--gold);position:relative;overflow:hidden}
+.vs-you::before{content:'';position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,var(--gold),var(--gold2))}
+.vs-h{font-size:11px;font-weight:700;letter-spacing:1.5px;text-transform:uppercase;margin-bottom:16px;padding-bottom:10px;border-bottom:1px solid var(--border)}
+.vs-them .vs-h{color:var(--muted)}
+.vs-you .vs-h{color:var(--gold)}
+.vs-row{display:flex;align-items:flex-start;gap:10px;margin-bottom:11px;font-size:14px;color:var(--text)}
+.vs-row .ic{flex-shrink:0;font-size:14px;margin-top:2px}
+
+/* SPECIALTIES */
+.spec-s{background:var(--navy)}
+.spec-s .s-title{color:#fff}
+.spec-s .s-title em{color:var(--gold2)}
+.spec-s .s-label{color:var(--gold2)}
+.spec-s .s-sub{color:rgba(255,255,255,.6)}
+.spec-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:16px}
+.sp-card{background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.1);border-radius:12px;padding:22px 20px;transition:.2s}
+.sp-card:hover{background:rgba(255,255,255,.1);border-color:rgba(184,131,42,.4)}
+.sp-icon{font-size:26px;margin-bottom:10px}
+.sp-t{font-weight:700;font-size:14px;color:#fff;margin-bottom:5px}
+.sp-d{font-size:13px;color:rgba(255,255,255,.6);line-height:1.6}
+.sp-tag{display:inline-block;background:rgba(212,168,83,.15);border:1px solid rgba(212,168,83,.3);border-radius:4px;padding:2px 8px;font-size:11px;color:var(--gold2);font-weight:600;margin-top:6px}
+
+/* REVIEWS */
+.rev-s{background:var(--off)}
+.rev-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:18px}
+.rc{background:#fff;border:1.5px solid var(--border);border-radius:12px;padding:24px;transition:.2s}
+.rc:hover{border-color:var(--gold);box-shadow:0 4px 16px rgba(0,0,0,.06)}
+.stars{color:var(--gold);font-size:15px;letter-spacing:2px;margin-bottom:10px}
+.rv-t{font-size:14px;color:var(--text);line-height:1.75;margin-bottom:14px;font-style:italic}
+.rv-n{font-weight:700;font-size:13px;color:var(--navy)}
+.rv-i{font-size:11px;color:var(--muted)}
+
+/* WIDGET */
+.widget-s{background:#fff;border-top:1px solid var(--border)}
+.w-inner{max-width:860px;margin:0 auto;text-align:center}
+.w-inner .s-title,.w-inner .s-label,.w-inner .s-sub{text-align:center}
+.w-inner .s-sub{margin-left:auto;margin-right:auto}
+.widget-wrap{background:var(--off);border:1.5px solid var(--border);border-radius:14px;overflow:hidden;min-height:660px}
+.widget-wrap iframe{width:100%;min-height:660px;border:none;display:block}
+.book-or{margin-top:22px;display:flex;justify-content:center;align-items:center;gap:12px;flex-wrap:wrap;font-size:13px;color:var(--muted)}
+
+/* STICKY */
+.sticky-wrap{position:fixed;bottom:20px;right:20px;z-index:999;display:flex;flex-direction:column;gap:8px;align-items:flex-end}
+.s-btn{display:flex;align-items:center;gap:7px;padding:11px 18px;border-radius:50px;font:700 13px 'Inter',sans-serif;text-decoration:none;box-shadow:0 4px 16px rgba(0,0,0,.15);transition:.2s;white-space:nowrap}
+.s-btn:hover{transform:translateY(-2px)}
+.s-call{background:var(--navy);color:#fff}
+.s-text{background:var(--green);color:#fff}
+
+/* FOOTER */
+footer{background:var(--navy);padding:48px 24px 24px}
+.fi{max-width:1120px;margin:0 auto}
+.ft{display:grid;grid-template-columns:2fr 1fr 1fr;gap:40px;margin-bottom:32px}
+.f-name{font-family:'Cormorant Garamond',serif;font-size:22px;font-weight:700;color:#fff;margin-bottom:8px}
+.f-name span{color:var(--gold2)}
+.f-bio{font-size:13px;color:rgba(255,255,255,.55);line-height:1.75;max-width:300px}
+.fc-t{font-size:11px;font-weight:700;letter-spacing:1.5px;text-transform:uppercase;color:var(--gold2);margin-bottom:12px}
+.fl{display:flex;flex-direction:column;gap:8px}
+.fl a,.fl span{font-size:13px;color:rgba(255,255,255,.55);text-decoration:none;transition:.2s}
+.fl a:hover{color:var(--gold2)}
+.fb{border-top:1px solid rgba(255,255,255,.1);padding-top:18px;font-size:11px;color:rgba(255,255,255,.35);line-height:1.8}
+.fb a{color:var(--gold2);text-decoration:none}
+
+/* LANG */
+.es{display:none}
+body.lang-es .en{display:none}
+body.lang-es .es{display:block}
+body.lang-es .es-i{display:inline}
+body.lang-es .en-i{display:none}
+.en-i{display:inline}.es-i{display:none}
+
+/* ANIMS */
+@keyframes fadeUp{from{opacity:0;transform:translateY(20px)}to{opacity:1;transform:translateY(0)}}
+.hc>*{animation:fadeUp .6s ease both}
+.hc>*:nth-child(1){animation-delay:.1s}.hc>*:nth-child(2){animation-delay:.2s}
+.hc>*:nth-child(3){animation-delay:.3s}.hc>*:nth-child(4){animation-delay:.4s}
+.hc>*:nth-child(5){animation-delay:.5s}.hc>*:nth-child(6){animation-delay:.6s}
+@keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-7px)}}
+
+/* RESPONSIVE */
+@media(max-width:900px){.h-inner,.vs-grid{grid-template-columns:1fr}.fc{max-width:480px}.ft{grid-template-columns:1fr}}
+@media(max-width:560px){.h-ctas{flex-direction:column}.h-ctas .btn{width:100%;text-align:center}.fg-row{grid-template-columns:1fr}section{padding:56px 16px}.hero{padding:48px 16px 56px}.sticky-wrap{bottom:12px;right:12px}}
+</style>
+  <!-- Compliance & SEO Meta -->
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://www.matosmortgages.com">
+</head>
+<body>
+
+<!-- URGENCY BAR -->
+<div class="urg-bar" id="urgBar">
+  <span class="en-i">📈 Mortgage rates change daily — lock yours in before they rise.&nbsp;<a href="#widget" onclick="document.getElementById('urgBar').style.display='none'" class="urg-link">Book a free rate check →</a></span>
+  <span class="es-i">📈 Las tasas hipotecarias cambian a diario — asegura la tuya antes de que suban.&nbsp;<a href="#widget" onclick="document.getElementById('urgBar').style.display='none'" class="urg-link">Reserva una consulta gratis →</a></span>
+  <button class="urg-x" onclick="document.getElementById('urgBar').style.display='none'">✕</button>
+</div>
+
+<div class="lb-bar">
+  <span>🌐</span>
+  <button class="lb on" id="btn-en" onclick="setLang('en')">English</button>
+  <button class="lb" id="btn-es" onclick="setLang('es')">Español</button>
+</div>
+
+<nav>
+  <div>
+    <div class="n1">Edwin <span>Matos</span></div>
+    <div class="n2">NMLS #2749585 · Licensed IL · IN · WI · Loan Factory</div>
+  </div>
+  <div class="nav-r">
+    <a href="tel:2242577978" class="nav-ph">📞 (224) 257-7978</a>
+    <a href="#widget" class="btn btn-g btn-sm"><span class="en-i">📅 Free Consultation</span><span class="es-i">📅 Consulta Gratis</span></a>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="h-inner">
+    <div class="hc">
+      <div class="badge en">🏆 Your Bilingual Mortgage Specialist — Chicago & Beyond</div>
+      <div class="badge es">🏆 Tu Especialista de Hipotecas Bilingüe — Chicago y Más</div>
+
+      <h1 class="en">Any Loan.<br>Any Situation.<em>Best Rate.</em></h1>
+      <h1 class="es">Cualquier Préstamo.<br>Cualquier Situación.<em>Mejor Tasa.</em></h1>
+
+      <p class="hero-sub en">Whether you're buying your first home, refinancing, investing, or growing your business — I shop 222+ lenders to find the right loan at the best rate for you.</p>
+      <p class="hero-sub es">Ya sea que estés comprando tu primera casa, refinanciando, invirtiendo o haciendo crecer tu negocio — comparo 222+ prestamistas para encontrarte el mejor préstamo.</p>
+      <p class="hero-whisper en">Bilingual service EN / ES · Same-day pre-approval · $2,000 best price guarantee</p>
+      <p class="hero-whisper es">Servicio bilingüe EN / ES · Pre-aprobación el mismo día · Garantía de $2,000</p>
+
+      <div class="h-stats">
+        <div><div class="h-stat-n"><span class="counter" data-target="222">0</span>+</div><div class="h-stat-l">Lenders</div></div>
+        <div><div class="h-stat-n"><span class="counter" data-target="7">0</span>K+</div><div class="h-stat-l">Clients</div></div>
+        <div><div class="h-stat-n">$2K</div><div class="h-stat-l">Guarantee</div></div>
+        <div><div class="h-stat-n">1-Day</div><div class="h-stat-l">Pre-Approval</div></div>
+      </div>
+
+      <div class="h-ctas">
+        <a href="#widget" class="btn btn-g"><span class="en-i">📅 Book My Free Consultation</span><span class="es-i">📅 Reservar Mi Consulta Gratis</span></a>
+        <a href="sms:2242577978" class="btn btn-o"><span class="en-i">💬 Text Me Now</span><span class="es-i">💬 Envíame un Mensaje</span></a>
+      </div>
+      <div class="h-trust">✓&nbsp;<span class="en-i">Free · No credit pull · Response within minutes</span><span class="es-i">Gratis · Sin consulta de crédito · Respuesta en minutos</span></div>
+    </div>
+
+    <!-- FORM -->
+    <div class="fc">
+      <div class="fc-title en">Get Your Free Rate Quote</div>
+      <div class="fc-title es">Obtén Tu Cotización Gratis</div>
+      <div class="fc-sub en">60 seconds · No credit pull · NMLS #2749585</div>
+      <div class="fc-sub es">60 segundos · Sin consulta de crédito · NMLS #2749585</div>
+
+      <!-- NATIVE BILINGUAL FORM — submits directly to GHL webhook -->
+      <form id="leadForm" onsubmit="submitNativeForm(event)" novalidate>
+
+        <div class="fg-row">
+          <div class="fg">
+            <label for="f-fn"><span class="en-i">First Name</span><span class="es-i">Nombre</span></label>
+            <input type="text" id="f-fn" name="firstName" placeholder="" required>
+          </div>
+          <div class="fg">
+            <label for="f-ln"><span class="en-i">Last Name</span><span class="es-i">Apellido</span></label>
+            <input type="text" id="f-ln" name="lastName" placeholder="" required>
+          </div>
+        </div>
+
+        <div class="fg">
+          <label for="f-ph"><span class="en-i">Phone</span><span class="es-i">Teléfono</span> *</label>
+          <input type="tel" id="f-ph" name="phone" placeholder="+1 (555) 000-0000" required>
+        </div>
+
+        <div class="fg">
+          <label for="f-em"><span class="en-i">Email</span><span class="es-i">Correo Electrónico</span></label>
+          <input type="email" id="f-em" name="email" placeholder="you@email.com">
+        </div>
+
+        <div class="fg">
+          <label for="f-pu"><span class="en-i">I Want To</span><span class="es-i">Quiero</span></label>
+          <select id="f-pu" name="loanPurpose">
+            <option value="" disabled selected><span class="en-i">Select...</span></option>
+            <option value="purchase" class="en-i">Purchase a Home</option>
+            <option value="purchase" class="es-i">Comprar una Casa</option>
+            <option value="refinance" class="en-i">Refinance</option>
+            <option value="refinance" class="es-i">Refinanciar</option>
+            <option value="cashout">Cash-Out Refi</option>
+            <option value="investment" class="en-i">Buy Investment Property</option>
+            <option value="investment" class="es-i">Propiedad de Inversión</option>
+            <option value="commercial" class="en-i">Commercial / SBA</option>
+            <option value="commercial" class="es-i">Comercial / SBA</option>
+          </select>
+        </div>
+
+        <div class="fg-row">
+          <div class="fg">
+            <label for="f-id"><span class="en-i">ID Type</span><span class="es-i">Tipo de ID</span></label>
+            <select id="f-id" name="idType">
+              <option value="" disabled selected>—</option>
+              <option value="ssn">SSN</option>
+              <option value="itin">ITIN</option>
+              <option value="foreign" class="en-i">Foreign ID</option>
+              <option value="foreign" class="es-i">ID Extranjera</option>
+            </select>
+          </div>
+          <div class="fg">
+            <label for="f-fi"><span class="en-i">Credit Score</span><span class="es-i">Crédito Aprox.</span></label>
+            <select id="f-fi" name="ficoRange">
+              <option value="" disabled selected>—</option>
+              <option value="740+">740+</option>
+              <option value="700-739">700–739</option>
+              <option value="660-699">660–699</option>
+              <option value="620-659">620–659</option>
+              <option value="580-619">580–619</option>
+              <option value="below580">&lt;580</option>
+            </select>
+          </div>
+        </div>
+
+        <!-- SMS consent checkbox — required for A2P/TCPA -->
+        <div style="display:flex;align-items:flex-start;gap:10px;margin:12px 0;background:var(--off);border:1px solid var(--border);border-radius:7px;padding:10px 12px">
+          <input type="checkbox" id="f-consent" name="consent" required style="margin-top:3px;flex-shrink:0;accent-color:var(--gold);width:16px;height:16px">
+          <label for="f-consent" style="font-size:11px;color:var(--muted);line-height:1.6;cursor:pointer">
+            <span class="en-i">By checking this box, I consent to receive SMS and email communications from Edwin Matos | Loan Factory (NMLS #2749585). Message frequency varies. Msg &amp; data rates may apply. Reply <strong>STOP</strong> to opt out, <strong>HELP</strong> for help. View our <a href="https://www.loanfactory.com/privacy" target="_blank" style="color:var(--gold)">Privacy Policy</a> and <a href="https://www.loanfactory.com/terms-and-conditions" target="_blank" style="color:var(--gold)">Terms</a>.</span>
+            <span class="es-i">Al marcar esta casilla, acepto recibir SMS y correos electrónicos de Edwin Matos | Loan Factory (NMLS #2749585). La frecuencia varía. Se pueden aplicar tarifas. Responde <strong>STOP</strong> para cancelar, <strong>HELP</strong> para ayuda. Ver <a href="https://www.loanfactory.com/privacy" target="_blank" style="color:var(--gold)">Política de Privacidad</a> y <a href="https://www.loanfactory.com/terms-and-conditions" target="_blank" style="color:var(--gold)">Términos</a>.</span>
+          </label>
+        </div>
+
+        <button type="submit" class="sub-btn" id="submitBtn">
+          <span class="en-i">🚀 Get My Free Rate Quote</span>
+          <span class="es-i">🚀 Obtener Mi Cotización Gratis</span>
+        </button>
+        <div class="fc-foot">
+          <span class="en-i">Free · No credit pull · Response within minutes</span>
+          <span class="es-i">Gratis · Sin consulta de crédito · Respuesta en minutos</span>
+        </div>
+      </form>
+
+      <a href="sms:2242577978" class="sms-alt" style="margin-top:14px">
+        <span class="en-i">💬 Prefer to text? Send "QUOTE" to (224) 257-7978</span>
+        <span class="es-i">💬 ¿Prefieres un mensaje? Envía "COTIZACIÓN" al (224) 257-7978</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- TRUST BAR -->
+<div class="tb">
+  <div class="tb-inner">
+    <div class="tb-item"><div class="tb-n"><span class="counter" data-target="222">0</span>+</div><div class="tb-l en">Lenders Shopped</div><div class="tb-l es">Prestamistas</div></div>
+    <div class="tb-item"><div class="tb-n"><span class="counter" data-target="7000">0</span>+</div><div class="tb-l en">Clients Served</div><div class="tb-l es">Clientes</div></div>
+    <div class="tb-item"><div class="tb-n">$<span class="counter" data-target="2000">0</span></div><div class="tb-l en">Price Guarantee</div><div class="tb-l es">Garantía de Precio</div></div>
+    <div class="tb-item"><div class="tb-n">1-Day</div><div class="tb-l en">Pre-Approval</div><div class="tb-l es">Pre-Aprobación</div></div>
+    <div class="tb-item"><div class="tb-n">3</div><div class="tb-l en">States Licensed</div><div class="tb-l es">Estados Licenciados</div></div>
+  </div>
+</div>
+
+<!-- HOW IT WORKS -->
+<section class="proc-s">
+  <div class="si">
+    <div class="s-label en" style="text-align:center">How It Works</div>
+    <div class="s-label es" style="text-align:center">Cómo Funciona</div>
+    <h2 class="s-title en" style="text-align:center;margin-bottom:40px">Your Mortgage, <em>Done Right</em></h2>
+    <h2 class="s-title es" style="text-align:center;margin-bottom:40px">Tu Hipoteca, <em>Hecha Bien</em></h2>
+    <div class="proc-grid">
+      <div class="proc-card"><div class="proc-num">1</div><div class="proc-t en">Tell Me Your Situation</div><div class="proc-t es">Cuéntame Tu Situación</div><div class="proc-d en">Fill out the quick form or book a call. Takes 60 seconds. No credit pull, no commitment.</div><div class="proc-d es">Llena el formulario o reserva una llamada. 60 segundos. Sin consulta de crédito, sin compromiso.</div></div>
+      <div class="proc-card"><div class="proc-num">2</div><div class="proc-t en">I Shop 222+ Lenders</div><div class="proc-t es">Comparo 222+ Prestamistas</div><div class="proc-d en">I run your profile through every lender I have access to and present you the best options — not just the easiest one.</div><div class="proc-d es">Proceso tu perfil a través de todos mis prestamistas y te presento las mejores opciones — no solo la más fácil.</div></div>
+      <div class="proc-card"><div class="proc-num">3</div><div class="proc-t en">Get Pre-Approved Fast</div><div class="proc-t es">Obtén Tu Pre-Aprobación Rápido</div><div class="proc-d en">Same-day pre-approval available in most cases. Start making offers with confidence.</div><div class="proc-d es">Pre-aprobación el mismo día en la mayoría de los casos. Haz ofertas con confianza.</div></div>
+      <div class="proc-card"><div class="proc-num">4</div><div class="proc-t en">Close & Move In</div><div class="proc-t es">Cierra y Múdate</div><div class="proc-d en">I guide you from pre-approval all the way to closing day. You focus on the move — I handle the rest.</div><div class="proc-d es">Te guío desde la pre-aprobación hasta el cierre. Tú concéntrate en mudarte — yo me encargo del resto.</div></div>
+    </div>
+    <div style="text-align:center;margin-top:40px"><a href="#widget" class="btn btn-g" style="font-size:15px;padding:13px 30px"><span class="en-i">Start My Free Consultation →</span><span class="es-i">Iniciar Mi Consulta Gratis →</span></a></div>
+  </div>
+</section>
+
+<!-- WHY EDWIN -->
+<section>
+  <div class="si">
+    <div class="s-label en">Why Choose Edwin</div>
+    <div class="s-label es">Por Qué Elegir a Edwin</div>
+    <h2 class="s-title en">More Lenders. Better Rates. <em>Real Service.</em></h2>
+    <h2 class="s-title es">Más Prestamistas. Mejores Tasas. <em>Servicio Real.</em></h2>
+    <p class="s-sub en">Big banks have one product and one rate. I have access to 222+ lenders — and I do the shopping for you.</p>
+    <p class="s-sub es">Los grandes bancos tienen un solo producto y una sola tasa. Yo tengo acceso a 222+ prestamistas — y hago la comparación por ti.</p>
+    <div class="why-grid">
+      <div class="wc"><div class="wc-icon">🏦</div><div class="wc-num">222+</div><div class="wc-l en">Wholesale Lenders</div><div class="wc-l es">Prestamistas Mayoristas</div><div class="wc-d en">I compare rates across hundreds of lenders so you always get the best deal available.</div><div class="wc-d es">Comparo tasas entre cientos de prestamistas para que siempre obtengas la mejor oferta.</div></div>
+      <div class="wc"><div class="wc-icon">🗣️</div><div class="wc-num">2</div><div class="wc-l en">Languages (EN + ES)</div><div class="wc-l es">Idiomas (ES + EN)</div><div class="wc-d en">100% bilingual. Every step explained clearly in English or Spanish — your choice.</div><div class="wc-d es">100% bilingüe. Cada paso explicado claramente en inglés o español — tú decides.</div></div>
+      <div class="wc"><div class="wc-icon">👥</div><div class="wc-num">7K+</div><div class="wc-l en">Clients Served</div><div class="wc-l es">Clientes Atendidos</div><div class="wc-d en">7,000+ families and business owners helped through my tax and mortgage practice.</div><div class="wc-d es">7,000+ familias y dueños de negocios ayudados a través de mi práctica fiscal e hipotecaria.</div></div>
+      <div class="wc"><div class="wc-icon">⚡</div><div class="wc-num">1-Day</div><div class="wc-l en">Pre-Approval</div><div class="wc-l es">Pre-Aprobación</div><div class="wc-d en">In competitive markets, speed matters. Get your offer in before anyone else.</div><div class="wc-d es">En mercados competitivos, la velocidad importa. Haz tu oferta antes que nadie.</div></div>
+      <div class="wc"><div class="wc-icon">📱</div><div class="wc-num">100%</div><div class="wc-l en">Remote-Friendly</div><div class="wc-l es">Proceso Remoto</div><div class="wc-d en">Everything handled via Zoom or phone. No office visits required, ever.</div><div class="wc-d es">Todo por Zoom o teléfono. Sin necesidad de visitar una oficina, nunca.</div></div>
+      <div class="wc"><div class="wc-icon">🏅</div><div class="wc-num">$2K</div><div class="wc-l en">Price Guarantee</div><div class="wc-l es">Garantía de Precio</div><div class="wc-d en">If I can't beat a competitor's written offer, you get $2,000. That's how confident I am.</div><div class="wc-d es">Si no supero la oferta escrita de un competidor, te damos $2,000. Así de seguros estamos.</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- LOAN PROGRAMS -->
+<section class="loans-s">
+  <div class="si">
+    <div class="s-label en">Loan Programs</div>
+    <div class="s-label es">Programas de Préstamos</div>
+    <h2 class="s-title en">Every Loan Type, <em>One Loan Officer</em></h2>
+    <h2 class="s-title es">Todos los Tipos de Préstamo, <em>Un Solo Oficial</em></h2>
+    <p class="s-sub en">From first-time buyers to seasoned investors — if the loan exists, I can find it.</p>
+    <p class="s-sub es">Desde compradores de primera vez hasta inversionistas experimentados — si el préstamo existe, yo lo encuentro.</p>
+    <div class="loans-grid">
+      <div class="lc" data-loan="conventional" onclick="selectLoan('conventional','Conventional')"><div class="lc-i">🏠</div><div class="lc-n">Conventional</div><div class="lc-d en">3% down. Best rates for strong borrowers.</div><div class="lc-d es">3% inicial. Mejores tasas para buenos perfiles.</div></div>
+      <div class="lc" data-loan="fha" onclick="selectLoan('fha','FHA Loan')"><div class="lc-i">🏡</div><div class="lc-n">FHA Loan</div><div class="lc-d en">3.5% down. Great for first-time buyers.</div><div class="lc-d es">3.5% inicial. Ideal para compradores de primera vez.</div></div>
+      <div class="lc" data-loan="va" onclick="selectLoan('va','VA Loan')"><div class="lc-i">🎖️</div><div class="lc-n">VA Loan</div><div class="lc-d en">$0 down for veterans and service members.</div><div class="lc-d es">$0 inicial para veteranos y militares.</div></div>
+      <div class="lc" data-loan="usda" onclick="selectLoan('usda','USDA Loan')"><div class="lc-i">🌾</div><div class="lc-n">USDA Loan</div><div class="lc-d en">$0 down for rural and suburban buyers.</div><div class="lc-d es">$0 inicial para compradores en zonas rurales.</div></div>
+      <div class="lc" data-loan="jumbo" onclick="selectLoan('jumbo','Jumbo Loan')"><div class="lc-i">💎</div><div class="lc-n">Jumbo Loan</div><div class="lc-d en">High-value homes above conforming limits.</div><div class="lc-d es">Casas de alto valor sobre los límites conformes.</div></div>
+      <div class="lc" data-loan="cashout" onclick="selectLoan('cashout','Cash-Out Refi')"><div class="lc-i">💰</div><div class="lc-n">Cash-Out Refi</div><div class="lc-d en">Tap your equity. Debt payoff, renovations, more.</div><div class="lc-d es">Usa tu valor acumulado. Deudas, renovaciones y más.</div></div>
+      <div class="lc sp" data-loan="itin" onclick="selectLoan('itin','ITIN Loan')"><div class="lc-i">📋</div><div class="lc-n en">ITIN Loan</div><div class="lc-n es">Préstamo ITIN</div><div class="lc-d en">No SSN? Up to 90% LTV. From 575 FICO.</div><div class="lc-d es">¿Sin SSN? Hasta 90% LTV. Desde 575 FICO.</div></div>
+      <div class="lc sp" data-loan="bankstatement" onclick="selectLoan('bankstatement','Bank Statement')"><div class="lc-i">💼</div><div class="lc-n en">Bank Statement</div><div class="lc-n es">Estado de Cuenta</div><div class="lc-d en">Self-employed? 12–24 months of deposits qualify.</div><div class="lc-d es">¿Independiente? 12–24 meses de depósitos califican.</div></div>
+      <div class="lc" data-loan="dscr" onclick="selectLoan('dscr','DSCR Loan')"><div class="lc-i">📈</div><div class="lc-n">DSCR Loan</div><div class="lc-d en">Qualify on rental income. No personal income docs.</div><div class="lc-d es">Califica por ingresos de renta. Sin documentos personales.</div></div>
+      <div class="lc" data-loan="nonqm" onclick="selectLoan('nonqm','Non-QM')"><div class="lc-i">🔄</div><div class="lc-n">Non-QM</div><div class="lc-d en">Non-traditional income or credit? I have lenders.</div><div class="lc-d es">¿Ingresos o crédito no convencionales? Tengo prestamistas.</div></div>
+      <div class="lc sp" data-loan="foreignnational" onclick="selectLoan('foreignnational','Foreign National')"><div class="lc-i">🌍</div><div class="lc-n">Foreign National</div><div class="lc-d en">No US credit history needed. Buy in the USA.</div><div class="lc-d es">Sin historial de crédito en EE.UU. Compra aquí.</div></div>
+      <div class="lc" data-loan="commercial" onclick="selectLoan('commercial','Commercial/SBA')"><div class="lc-i">🏢</div><div class="lc-n en">Commercial / SBA</div><div class="lc-n es">Comercial / SBA</div><div class="lc-d en">Business owners expanding or buying property.</div><div class="lc-d es">Dueños de negocios creciendo o comprando.</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- VS -->
+<section class="vs-s">
+  <div class="si">
+    <div class="s-label en" style="text-align:center">The Difference</div>
+    <div class="s-label es" style="text-align:center">La Diferencia</div>
+    <h2 class="s-title en" style="text-align:center;margin-bottom:36px">Big Bank vs. <em>Edwin Matos</em></h2>
+    <h2 class="s-title es" style="text-align:center;margin-bottom:36px">Banco Grande vs. <em>Edwin Matos</em></h2>
+    <div class="vs-grid">
+      <div class="vs-card vs-them">
+        <div class="vs-h en">❌ Big Bank or Single Lender</div>
+        <div class="vs-h es">❌ Banco Grande o Prestamista Único</div>
+        <div class="vs-row"><span class="ic">❌</span><span class="en-i">One rate — take it or leave it</span><span class="es-i">Una sola tasa — tómala o déjala</span></div>
+        <div class="vs-row"><span class="ic">❌</span><span class="en-i">Rejects non-standard borrowers</span><span class="es-i">Rechaza a prestatarios no convencionales</span></div>
+        <div class="vs-row"><span class="ic">❌</span><span class="en-i">English only — no bilingual help</span><span class="es-i">Solo inglés — sin apoyo bilingüe</span></div>
+        <div class="vs-row"><span class="ic">❌</span><span class="en-i">Slow — weeks to get an answer</span><span class="es-i">Lento — semanas para obtener una respuesta</span></div>
+        <div class="vs-row"><span class="ic">❌</span><span class="en-i">Hidden fees and junk charges</span><span class="es-i">Cargos ocultos y comisiones injustas</span></div>
+        <div class="vs-row"><span class="ic">❌</span><span class="en-i">No price guarantee</span><span class="es-i">Sin garantía de precio</span></div>
+      </div>
+      <div class="vs-card vs-you">
+        <div class="vs-h en">✅ Edwin Matos · Loan Factory</div>
+        <div class="vs-h es">✅ Edwin Matos · Loan Factory</div>
+        <div class="vs-row"><span class="ic">✅</span><span class="en-i">222+ lenders compared — best rate wins</span><span class="es-i">222+ prestamistas comparados — gana la mejor tasa</span></div>
+        <div class="vs-row"><span class="ic">✅</span><span class="en-i">Solutions for every borrower profile</span><span class="es-i">Soluciones para todo tipo de prestatario</span></div>
+        <div class="vs-row"><span class="ic">✅</span><span class="en-i">100% bilingual — English & Spanish</span><span class="es-i">100% bilingüe — inglés y español</span></div>
+        <div class="vs-row"><span class="ic">✅</span><span class="en-i">Same-day pre-approval in most cases</span><span class="es-i">Pre-aprobación el mismo día en la mayoría de los casos</span></div>
+        <div class="vs-row"><span class="ic">✅</span><span class="en-i">Transparent pricing — no junk fees</span><span class="es-i">Precios transparentes — sin cargos injustos</span></div>
+        <div class="vs-row"><span class="ic">✅</span><strong class="en-i">$2,000 Best Price Guarantee</strong><strong class="es-i">Garantía de Mejor Precio de $2,000</strong></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SPECIALTIES -->
+<section class="spec-s">
+  <div class="si">
+    <div class="s-label en">My Specialties</div>
+    <div class="s-label es">Mis Especialidades</div>
+    <h2 class="s-title en">Where I Really <em>Stand Out</em></h2>
+    <h2 class="s-title es">Donde Realmente <em>Me Destaco</em></h2>
+    <p class="s-sub en">Beyond the standard products, these are the situations I've built deep expertise in.</p>
+    <p class="s-sub es">Más allá de los productos estándar, estas son las situaciones en las que he desarrollado profunda experiencia.</p>
+    <div class="spec-grid">
+      <div class="sp-card"><div class="sp-icon">🌎</div><div class="sp-t en">Bilingual Service</div><div class="sp-t es">Servicio Bilingüe</div><div class="sp-d en">Full mortgage process in Spanish or English — no translators, no confusion, just clear communication from start to close.</div><div class="sp-d es">Todo el proceso hipotecario en español o inglés — sin traductores, sin confusión, solo comunicación clara de principio a fin.</div><div class="sp-tag">EN / ES</div></div>
+      <div class="sp-card"><div class="sp-icon">📋</div><div class="sp-t en">ITIN & No-SSN Loans</div><div class="sp-t es">Préstamos ITIN y Sin SSN</div><div class="sp-d en">Access to 75+ ITIN lenders. Up to 90% LTV, from 575 FICO. No Social Security number required.</div><div class="sp-d es">Acceso a 75+ prestamistas ITIN. Hasta 90% LTV, desde 575 FICO. Sin número de Seguro Social.</div><div class="sp-tag">90% LTV · 575 FICO</div></div>
+      <div class="sp-card"><div class="sp-icon">💼</div><div class="sp-t en">Self-Employed Borrowers</div><div class="sp-t es">Trabajadores Independientes</div><div class="sp-d en">Bank statement loans, P&amp;L only, 1099s — I specialize in qualifying borrowers with non-traditional income.</div><div class="sp-d es">Préstamos por estados de cuenta, solo P&amp;G, 1099 — me especializo en calificar prestatarios con ingresos no tradicionales.</div><div class="sp-tag">Bank Statement · 1099</div></div>
+      <div class="sp-card"><div class="sp-icon">🏢</div><div class="sp-t en">Commercial & SBA</div><div class="sp-t es">Comercial y SBA</div><div class="sp-d en">Business expansion, commercial property, SBA 7(a) and 504 — I do all loans, not just residential.</div><div class="sp-d es">Expansión de negocios, propiedad comercial, SBA 7(a) y 504 — hago todos los préstamos, no solo residenciales.</div><div class="sp-tag">SBA · Commercial</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- REVIEWS -->
+<section class="rev-s">
+  <div class="si">
+    <div class="s-label en">Client Stories</div>
+    <div class="s-label es">Historias de Clientes</div>
+    <h2 class="s-title en">Real People, <em>Real Results</em></h2>
+    <h2 class="s-title es">Personas Reales, <em>Resultados Reales</em></h2>
+    <p class="s-sub en">Every one of these started with a phone call.</p>
+    <p class="s-sub es">Cada uno de estos comenzó con una llamada telefónica.</p>
+    <div class="rev-grid">
+      <div class="rc"><div class="stars">★★★★★</div><div class="rv-t en">"I'd been turned away by two lenders. Edwin found me a better rate than either of them offered AND closed in 3 weeks. Responsive, professional, explained everything clearly."</div><div class="rv-t es">"Dos prestamistas me habían rechazado. Edwin me consiguió una mejor tasa que la que ofrecían ambos Y cerró en 3 semanas. Atento, profesional, explicó todo claramente."</div><div class="rv-n">James T.</div><div class="rv-i en">Conventional Purchase · Chicago, IL</div><div class="rv-i es">Compra Convencional · Chicago, IL</div></div>
+      <div class="rc"><div class="stars">★★★★★</div><div class="rv-t en">"Self-employed for 8 years — I thought I'd never qualify. Edwin used my bank statements and got me an approval the same week. I couldn't believe how smooth the process was."</div><div class="rv-t es">"8 años siendo independiente — pensé que nunca calificaría. Edwin usó mis estados de cuenta y me dio una aprobación la misma semana. No podía creer lo fluido que fue el proceso."</div><div class="rv-n">Carlos R.</div><div class="rv-i en">Bank Statement Loan · Hammond, IN</div><div class="rv-i es">Préstamo por Estado de Cuenta · Hammond, IN</div></div>
+      <div class="rc"><div class="stars">★★★★★</div><div class="rv-t en">"Edwin handled our refinance and then our investment property purchase back to back. Bilingual, fast, and always available. He's the only LO I'll ever call."</div><div class="rv-t es">"Edwin manejó nuestro refinanciamiento y luego la compra de nuestra propiedad de inversión uno tras otro. Bilingüe, rápido y siempre disponible. Es el único LO al que llamaré."</div><div class="rv-n">Roberto & Ana M.</div><div class="rv-i en">Refi + Investment Property · Milwaukee, WI</div><div class="rv-i es">Refinanciamiento + Inversión · Milwaukee, WI</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- MORTGAGE CALCULATOR - PITI -->
+<section style="background:var(--navy);padding:80px 24px" id="calculator">
+  <div style="max-width:960px;margin:0 auto">
+    <div style="text-align:center;margin-bottom:48px">
+      <div class="s-label" style="color:var(--gold2)">
+        <span class="en-i">Free Tool</span><span class="es-i">Herramienta Gratis</span>
+      </div>
+      <h2 class="s-title" style="color:#fff">
+        <span class="en-i">Estimate Your <em style="color:var(--gold2)">Full Monthly Payment</em></span>
+        <span class="es-i">Estima Tu <em style="color:var(--gold2)">Pago Mensual Completo</em></span>
+      </h2>
+      <p style="color:rgba(255,255,255,.6);font-size:16px;max-width:520px;margin:0 auto">
+        <span class="en-i">Includes principal, interest, taxes, insurance & PMI. Adjust the sliders — updates instantly.</span>
+        <span class="es-i">Incluye capital, intereses, impuestos, seguro y PMI. Ajusta los controles — se actualiza al instante.</span>
+      </p>
+    </div>
+
+    <div style="background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.1);border-radius:16px;padding:40px 36px">
+
+      <!-- ROW 1: Price, Down, Rate -->
+      <div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:32px;margin-bottom:32px" class="calc-grid">
+        <div>
+          <div style="display:flex;justify-content:space-between;margin-bottom:10px">
+            <label style="font-size:12px;font-weight:700;letter-spacing:1px;text-transform:uppercase;color:rgba(255,255,255,.6)">
+              <span class="en-i">Home Price</span><span class="es-i">Precio de la Casa</span>
+            </label>
+            <span style="color:var(--gold2);font-weight:700;font-size:15px" id="priceVal">$300,000</span>
+          </div>
+          <input type="range" id="homePrice" min="50000" max="1500000" step="5000" value="300000" class="calc-slider" oninput="calcPayment()">
+          <div style="display:flex;justify-content:space-between;font-size:11px;color:rgba(255,255,255,.3);margin-top:4px"><span>$50K</span><span>$1.5M</span></div>
+        </div>
+        <div>
+          <div style="display:flex;justify-content:space-between;margin-bottom:10px">
+            <label style="font-size:12px;font-weight:700;letter-spacing:1px;text-transform:uppercase;color:rgba(255,255,255,.6)">
+              <span class="en-i">Down Payment</span><span class="es-i">Pago Inicial</span>
+            </label>
+            <span style="color:var(--gold2);font-weight:700;font-size:15px" id="downVal">10%</span>
+          </div>
+          <input type="range" id="downPct" min="3" max="50" step="1" value="10" class="calc-slider" oninput="calcPayment()">
+          <div style="display:flex;justify-content:space-between;font-size:11px;color:rgba(255,255,255,.3);margin-top:4px"><span>3%</span><span>50%</span></div>
+        </div>
+        <div>
+          <div style="display:flex;justify-content:space-between;margin-bottom:10px">
+            <label style="font-size:12px;font-weight:700;letter-spacing:1px;text-transform:uppercase;color:rgba(255,255,255,.6)">
+              <span class="en-i">Interest Rate</span><span class="es-i">Tasa de Interés</span>
+            </label>
+            <span style="color:var(--gold2);font-weight:700;font-size:15px" id="rateVal">6.5%</span>
+          </div>
+          <input type="range" id="intRate" min="2" max="12" step="0.1" value="6.5" class="calc-slider" oninput="calcPayment()">
+          <div style="display:flex;justify-content:space-between;font-size:11px;color:rgba(255,255,255,.3);margin-top:4px"><span>2%</span><span>12%</span></div>
+        </div>
+      </div>
+
+      <!-- ROW 2: Tax Rate, Insurance, Loan Term -->
+      <div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:32px;margin-bottom:36px" class="calc-grid">
+        <div>
+          <div style="display:flex;justify-content:space-between;margin-bottom:10px">
+            <label style="font-size:12px;font-weight:700;letter-spacing:1px;text-transform:uppercase;color:rgba(255,255,255,.6)">
+              <span class="en-i">Property Tax Rate</span><span class="es-i">Tasa de Impuesto</span>
+            </label>
+            <span style="color:var(--gold2);font-weight:700;font-size:15px" id="taxVal">1.5%</span>
+          </div>
+          <input type="range" id="taxRate" min="0.5" max="4.0" step="0.1" value="1.5" class="calc-slider" oninput="calcPayment()">
+          <div style="display:flex;justify-content:space-between;font-size:11px;color:rgba(255,255,255,.3);margin-top:4px"><span>0.5%</span><span>4%</span></div>
+        </div>
+        <div>
+          <div style="display:flex;justify-content:space-between;margin-bottom:10px">
+            <label style="font-size:12px;font-weight:700;letter-spacing:1px;text-transform:uppercase;color:rgba(255,255,255,.6)">
+              <span class="en-i">Home Insurance / yr</span><span class="es-i">Seguro de Hogar / año</span>
+            </label>
+            <span style="color:var(--gold2);font-weight:700;font-size:15px" id="insVal">$1,200</span>
+          </div>
+          <input type="range" id="insAmt" min="600" max="5000" step="100" value="1200" class="calc-slider" oninput="calcPayment()">
+          <div style="display:flex;justify-content:space-between;font-size:11px;color:rgba(255,255,255,.3);margin-top:4px"><span>$600</span><span>$5K</span></div>
+        </div>
+        <div>
+          <div style="display:flex;justify-content:space-between;margin-bottom:10px">
+            <label style="font-size:12px;font-weight:700;letter-spacing:1px;text-transform:uppercase;color:rgba(255,255,255,.6)">
+              <span class="en-i">Loan Term</span><span class="es-i">Plazo del Préstamo</span>
+            </label>
+            <span style="color:var(--gold2);font-weight:700;font-size:15px" id="termVal">30 <span class="en-i">yrs</span><span class="es-i">años</span></span>
+          </div>
+          <input type="range" id="loanTerm" min="10" max="30" step="5" value="30" class="calc-slider" oninput="calcPayment()">
+          <div style="display:flex;justify-content:space-between;font-size:11px;color:rgba(255,255,255,.3);margin-top:4px">
+            <span>10</span><span>15</span><span>20</span><span>25</span><span>30</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- RESULT CARD -->
+      <div style="background:rgba(184,131,42,.12);border:1.5px solid rgba(184,131,42,.3);border-radius:12px;padding:28px 24px">
+        <div style="display:flex;align-items:flex-start;justify-content:space-between;flex-wrap:wrap;gap:20px;margin-bottom:24px">
+          <div>
+            <div style="font-size:11px;font-weight:700;letter-spacing:1.5px;text-transform:uppercase;color:rgba(255,255,255,.5);margin-bottom:6px">
+              <span class="en-i">Total Monthly Payment (PITI)</span><span class="es-i">Pago Mensual Total (PITI)</span>
+            </div>
+            <div style="font-family:'Cormorant Garamond',serif;font-size:56px;font-weight:700;color:#fff;line-height:1" id="monthlyPayment">$2,271</div>
+            <div style="font-size:12px;color:rgba(255,255,255,.4);margin-top:6px">
+              <span class="en-i">Principal · Interest · Taxes · Insurance</span>
+              <span class="es-i">Capital · Intereses · Impuestos · Seguro</span>
+              <span id="pmiNote" style="color:#FCA5A5;display:none"> · PMI</span>
+            </div>
+          </div>
+          <div style="text-align:right">
+            <div style="font-size:13px;color:rgba(255,255,255,.5);margin-bottom:4px">
+              <span class="en-i">Loan Amount</span><span class="es-i">Monto del Préstamo</span>
+            </div>
+            <div style="font-size:22px;font-weight:700;color:var(--gold2)" id="loanAmt">$270,000</div>
+            <a href="#widget" class="btn btn-g" style="display:inline-block;margin-top:14px;font-size:13px;padding:10px 20px">
+              <span class="en-i">Lock This Rate →</span><span class="es-i">Asegurar Esta Tasa →</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- BREAKDOWN BAR -->
+        <div style="margin-bottom:16px">
+          <div style="display:flex;height:10px;border-radius:6px;overflow:hidden;gap:2px">
+            <div id="barPI"  style="background:#D4A853;transition:width .3s;height:100%"></div>
+            <div id="barTax" style="background:#60A5FA;transition:width .3s;height:100%"></div>
+            <div id="barIns" style="background:#34D399;transition:width .3s;height:100%"></div>
+            <div id="barPMI" style="background:#F87171;transition:width .3s;height:100%;display:none"></div>
+          </div>
+        </div>
+
+        <!-- BREAKDOWN ROWS -->
+        <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:12px">
+          <div style="background:rgba(255,255,255,.05);border-radius:8px;padding:12px 14px">
+            <div style="font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:1px;color:#D4A853;margin-bottom:4px">
+              <span class="en-i">Principal &amp; Interest</span><span class="es-i">Capital e Intereses</span>
+            </div>
+            <div style="font-size:20px;font-weight:700;color:#fff" id="piAmt">$1,896</div>
+          </div>
+          <div style="background:rgba(255,255,255,.05);border-radius:8px;padding:12px 14px">
+            <div style="font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:1px;color:#60A5FA;margin-bottom:4px">
+              <span class="en-i">Property Tax</span><span class="es-i">Impuesto a la Propiedad</span>
+            </div>
+            <div style="font-size:20px;font-weight:700;color:#fff" id="taxAmt">$375</div>
+          </div>
+          <div style="background:rgba(255,255,255,.05);border-radius:8px;padding:12px 14px">
+            <div style="font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:1px;color:#34D399;margin-bottom:4px">
+              <span class="en-i">Home Insurance</span><span class="es-i">Seguro de Hogar</span>
+            </div>
+            <div style="font-size:20px;font-weight:700;color:#fff" id="insAmtDisp">$100</div>
+          </div>
+          <div id="pmiCard" style="background:rgba(248,113,113,.08);border:1px solid rgba(248,113,113,.3);border-radius:8px;padding:12px 14px;display:none">
+            <div style="font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:1px;color:#F87171;margin-bottom:4px">PMI</div>
+            <div style="font-size:20px;font-weight:700;color:#fff" id="pmiAmt">$0</div>
+            <div style="font-size:10px;color:rgba(255,255,255,.4);margin-top:2px">
+              <span class="en-i">Removed at 20% equity</span><span class="es-i">Se elimina con 20% capital</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div style="text-align:center;font-size:11px;color:rgba(255,255,255,.25);margin-top:16px">
+        <span class="en-i">Estimate only. Taxes and insurance vary by location. PMI estimated at 0.65% annually for &lt;20% down. Call (224) 257-7978 for your exact payment.</span>
+        <span class="es-i">Solo estimado. Los impuestos y seguros varían según la ubicación. PMI estimado al 0.65% anual con &lt;20% inicial. Llame al (224) 257-7978 para su pago exacto.</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ SECTION -->
+<section style="background:var(--off);padding:80px 24px">
+  <div style="max-width:780px;margin:0 auto">
+    <div class="s-label" style="text-align:center"><span class="en-i">Common Questions</span><span class="es-i">Preguntas Frecuentes</span></div>
+    <h2 class="s-title" style="text-align:center;margin-bottom:40px">
+      <span class="en-i">Everything You're <em>Wondering About</em></span>
+      <span class="es-i">Todo Lo Que <em>Te Preguntas</em></span>
+    </h2>
+    <div id="faqList"></div>
+  </div>
+</section>
+<section class="widget-s" id="widget">
+  <div class="si">
+    <div class="w-inner">
+      <div class="s-label en">Book Your Free Call</div>
+      <div class="s-label es">Reserva Tu Llamada Gratis</div>
+      <h2 class="s-title en">Free 30-Min <em>Mortgage Consultation</em></h2>
+      <h2 class="s-title es">Consulta Hipotecaria <em>Gratis de 30 Minutos</em></h2>
+      <p class="s-sub en">Pick a time below. I'll review your situation, tell you exactly what you qualify for, and compare rates from 222+ lenders on the call — no commitment, no credit pull.</p>
+      <p class="s-sub es">Elige un horario abajo. Revisaré tu situación, te diré exactamente para qué calificas y comparo tasas de 222+ prestamistas en la llamada — sin compromiso, sin consulta de crédito.</p>
+      <div class="widget-wrap" style="overflow:visible;min-height:700px;border-radius:14px">
+        <iframe 
+          src="https://api.leadconnectorhq.com/widget/booking/nQ960r3IX3JEaKgEAryK" 
+          style="width:100%;min-height:700px;border:none;display:block;border-radius:14px" 
+          id="msgsndr-calendar"
+          title="Book a Free Mortgage Consultation with Edwin Matos"
+          allowfullscreen
+        ></iframe>
+      </div>
+      <div class="book-or">
+        <span class="en-i">Prefer to reach out directly?</span>
+        <span class="es-i">¿Prefieres contactarme directamente?</span>
+        <a href="tel:2242577978" class="btn btn-o btn-sm">📞 (224) 257-7978</a>
+        <a href="sms:2242577978" class="btn btn-o btn-sm">💬 <span class="en-i">Text Me</span><span class="es-i">Mensaje</span></a>
+        <a href="mailto:edwin.matos@loanfactory.com" class="btn btn-o btn-sm">✉️ Email</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="fi">
+    <div class="ft">
+      <div>
+        <div class="f-name">Edwin <span>Matos</span></div>
+        <div class="f-bio en">Bilingual mortgage loan officer serving families and business owners across Illinois, Indiana & Wisconsin. Access to 222+ lenders. Every loan type. Every situation.</div>
+        <div class="f-bio es">Oficial de préstamos hipotecarios bilingüe sirviendo a familias y dueños de negocios en Illinois, Indiana y Wisconsin. Acceso a 222+ prestamistas. Todo tipo de préstamo. Toda situación.</div>
+      </div>
+      <div>
+        <div class="fc-t en">Quick Links</div><div class="fc-t es">Enlaces</div>
+        <div class="fl">
+          <a href="#widget" class="en">📅 Book Free Consultation</a>
+          <a href="#widget" class="es">📅 Reservar Consulta Gratis</a>
+          <a href="tel:2242577978">📞 (224) 257-7978</a>
+          <a href="sms:2242577978" class="en">💬 Text Me</a>
+          <a href="sms:2242577978" class="es">💬 Envíame un Mensaje</a>
+          <a href="mailto:edwin.matos@loanfactory.com">✉️ Email Edwin</a>
+        </div>
+      </div>
+      <div>
+        <div class="fc-t en">Licensed In</div><div class="fc-t es">Licenciado En</div>
+        <div class="fl">
+          <span>🏙️ Illinois</span>
+          <span>🏙️ Indiana</span>
+          <span>🏙️ Wisconsin</span>
+          <span style="margin-top:8px">NMLS #2749585</span>
+          <span>Company NMLS #320841</span>
+        </div>
+      </div>
+    </div>
+    <div class="fb">
+      <p>
+        <span class="en-i">© 2026 Edwin Matos · Loan Factory, Inc. · NMLS #2749585 · Company NMLS #320841 · Equal Housing Lender 🏠</span>
+        <span class="es-i">© 2026 Edwin Matos · Loan Factory, Inc. · NMLS #2749585 · NMLS de la Empresa #320841 · Prestamista de Vivienda Igualitaria 🏠</span>
+      </p>
+      <p style="margin-top:5px">
+        <span class="en-i">SMS Disclosure: By providing your phone number you consent to receive text messages from Edwin Matos | Loan Factory. Message frequency varies. Msg &amp; data rates may apply. Reply STOP to opt out, HELP for help.</span>
+        <span class="es-i">Aviso SMS: Al proporcionar su número de teléfono, acepta recibir mensajes de texto de Edwin Matos | Loan Factory. La frecuencia de mensajes varía. Se pueden aplicar tarifas. Responda STOP para cancelar, HELP para ayuda.</span>
+      </p>
+      <p style="margin-top:5px">
+        <span class="en-i">This is not a commitment to lend. All loans subject to credit approval. Rates and programs subject to change without notice.</span>
+        <span class="es-i">Esto no es un compromiso de préstamo. Todos los préstamos están sujetos a aprobación de crédito. Las tasas y programas pueden cambiar sin previo aviso.</span>
+      </p>
+      <p style="margin-top:4px">
+        <a href="https://www.loanfactory.com/privacy"><span class="en-i">Privacy Policy</span><span class="es-i">Política de Privacidad</span></a> · 
+        <a href="https://www.loanfactory.com/terms-and-conditions"><span class="en-i">Terms &amp; Conditions</span><span class="es-i">Términos y Condiciones</span></a>
+      </p>
+    </div>
+  </div>
+</footer>
+
+<div class="sticky-wrap">
+  <a href="tel:2242577978" class="s-btn s-call">📞 <span class="en-i">Call Now</span><span class="es-i">Llamar</span></a>
+  <a href="sms:2242577978" class="s-btn s-text">💬 <span class="en-i">Text Me</span><span class="es-i">Mensaje</span></a>
+</div>
+
+
+
+<script>
+// ── LANGUAGE ──────────────────────────────────────────────────────────────────
+function setLang(l){
+  document.body.className=l==='es'?'lang-es':'';
+  document.getElementById('btn-en').classList.toggle('on',l==='en');
+  document.getElementById('btn-es').classList.toggle('on',l==='es');
+  document.documentElement.lang=l;
+  // Reload calendar iframe with correct language
+  const cal = document.getElementById('msgsndr-calendar');
+  if(cal){
+    const calBase = 'https://api.leadconnectorhq.com/widget/booking/nQ960r3IX3JEaKgEAryK';
+    cal.src = l==='es' ? calBase+'?lang=es' : calBase;
+  }
+  buildFaq();
+}
+
+// ── LOAN CARD CLICK ───────────────────────────────────────────────────────────
+function selectLoan(val, name){
+  // highlight card
+  document.querySelectorAll('.lc').forEach(c=>c.classList.remove('selected'));
+  const card = document.querySelector(`[data-loan="${val}"]`);
+  if(card){ card.classList.add('selected'); card.style.transform='scale(1.03)'; setTimeout(()=>card.style.transform='',300); }
+  
+  // GHL iframe form — pre-fill not needed
+  
+  // scroll to form with flash
+  const form = document.querySelector('.fc');
+  if(form){
+    form.scrollIntoView({behavior:'smooth',block:'center'});
+    setTimeout(()=>{
+      form.style.transition='box-shadow .3s';
+      form.style.boxShadow='0 0 0 3px var(--gold), 0 6px 32px rgba(184,131,42,.3)';
+      setTimeout(()=>{ form.style.boxShadow=''; },1200);
+    },600);
+  }
+
+  // show toast
+  const isEs = document.body.classList.contains('lang-es');
+  showToast(isEs ? `✅ Seleccionado: ${name}` : `✅ Selected: ${name}`);
+}
+
+// ── TOAST ────────────────────────────────────────────────────────────────────
+function showToast(msg){
+  let t = document.getElementById('toast');
+  if(!t){ t=document.createElement('div'); t.id='toast'; t.style.cssText='position:fixed;bottom:90px;left:50%;transform:translateX(-50%);background:var(--navy);color:#fff;padding:11px 22px;border-radius:50px;font-size:14px;font-weight:600;z-index:9999;box-shadow:0 4px 20px rgba(0,0,0,.3);transition:opacity .3s;border:1px solid var(--gold)'; document.body.appendChild(t); }
+  t.textContent=msg; t.style.opacity='1';
+  clearTimeout(t._t); t._t=setTimeout(()=>t.style.opacity='0',2500);
+}
+
+// ── MORTGAGE CALCULATOR (PITI) ────────────────────────────────────────────────
+function calcPayment(){
+  const price   = +document.getElementById('homePrice').value;
+  const downPct = +document.getElementById('downPct').value;
+  const annRate = +document.getElementById('intRate').value;
+  const taxRate = +document.getElementById('taxRate').value;
+  const insAnn  = +document.getElementById('insAmt').value;
+  const termYrs = +document.getElementById('loanTerm').value;
+
+  const down    = price * downPct / 100;
+  const loan    = price - down;
+  const mRate   = annRate / 100 / 12;
+  const n       = termYrs * 12;
+
+  // Principal & Interest
+  const pi = mRate === 0 ? loan/n : loan*(mRate*Math.pow(1+mRate,n))/(Math.pow(1+mRate,n)-1);
+
+  // Tax & Insurance (monthly)
+  const tax = (price * taxRate / 100) / 12;
+  const ins = insAnn / 12;
+
+  // PMI: applies when down < 20%, estimated at 0.65% of loan annually
+  const needsPMI = downPct < 20;
+  const pmi = needsPMI ? (loan * 0.0065) / 12 : 0;
+
+  const total = pi + tax + ins + pmi;
+
+  // Update sliders display
+  document.getElementById('priceVal').textContent = '$' + price.toLocaleString();
+  document.getElementById('downVal').textContent  = downPct + '%';
+  document.getElementById('rateVal').textContent  = annRate.toFixed(1) + '%';
+  document.getElementById('taxVal').textContent   = taxRate.toFixed(1) + '%';
+  document.getElementById('insVal').textContent   = '$' + insAnn.toLocaleString();
+  const termEl = document.getElementById('termVal');
+  const isEs = document.body.classList.contains('lang-es');
+  termEl.innerHTML = termYrs + ' <span class="en-i">yrs</span><span class="es-i">años</span>';
+
+  // Update results
+  document.getElementById('loanAmt').textContent        = '$' + Math.round(loan).toLocaleString();
+  document.getElementById('monthlyPayment').textContent = '$' + Math.round(total).toLocaleString();
+  document.getElementById('piAmt').textContent          = '$' + Math.round(pi).toLocaleString();
+  document.getElementById('taxAmt').textContent         = '$' + Math.round(tax).toLocaleString();
+  document.getElementById('insAmtDisp').textContent     = '$' + Math.round(ins).toLocaleString();
+  document.getElementById('pmiAmt').textContent         = '$' + Math.round(pmi).toLocaleString();
+
+  // Show/hide PMI
+  const pmiCard = document.getElementById('pmiCard');
+  const pmiNote = document.getElementById('pmiNote');
+  const barPMI  = document.getElementById('barPMI');
+  pmiCard.style.display = needsPMI ? 'block' : 'none';
+  pmiNote.style.display = needsPMI ? 'inline' : 'none';
+  barPMI.style.display  = needsPMI ? 'block' : 'none';
+
+  // Breakdown bar widths
+  const barTotal = pi + tax + ins + pmi;
+  document.getElementById('barPI').style.width  = ((pi/barTotal)*100).toFixed(1)+'%';
+  document.getElementById('barTax').style.width = ((tax/barTotal)*100).toFixed(1)+'%';
+  document.getElementById('barIns').style.width = ((ins/barTotal)*100).toFixed(1)+'%';
+  if(needsPMI) document.getElementById('barPMI').style.width = ((pmi/barTotal)*100).toFixed(1)+'%';
+}
+calcPayment(); // init
+
+// ── ANIMATED COUNTERS ─────────────────────────────────────────────────────────
+function animateCounters(){
+  document.querySelectorAll('.counter').forEach(el=>{
+    const target=+el.dataset.target, dur=1800, step=16;
+    let current=0, start=null;
+    const tick=(ts)=>{
+      if(!start)start=ts;
+      const prog=Math.min((ts-start)/dur,1);
+      const ease=1-Math.pow(1-prog,3);
+      current=Math.round(ease*target);
+      el.textContent=current.toLocaleString();
+      if(prog<1)requestAnimationFrame(tick);
+      else el.textContent=target.toLocaleString();
+    };
+    requestAnimationFrame(tick);
+  });
+}
+const tbObs=new IntersectionObserver((entries)=>{
+  entries.forEach(e=>{if(e.isIntersecting){animateCounters();tbObs.disconnect();}});
+},{threshold:0.3});
+const tb=document.querySelector('.tb');
+if(tb)tbObs.observe(tb);
+
+// ── FAQ DATA ──────────────────────────────────────────────────────────────────
+const faqs = {
+  en: [
+    {q:"Can I get a mortgage with an ITIN number?", a:"Absolutely. I specialize in ITIN loans and have access to 75+ ITIN lenders. You can purchase a home, refinance, or invest with as little as 10% down and credit scores starting at 575 FICO — no Social Security number required."},
+    {q:"I'm self-employed. Can I still qualify?", a:"Yes. If you don't show much income on your tax returns, I use bank statement loans — 12 to 24 months of deposits qualify you instead of W-2s. It's one of my specialties."},
+    {q:"How fast can I get pre-approved?", a:"In most cases, same day. Once I receive your documents I can turn around a pre-approval letter quickly. In competitive markets, speed is everything — buyers with pre-approvals win."},
+    {q:"What's the minimum down payment?", a:"It depends on the loan type. FHA requires 3.5%, conventional can be as low as 3%, VA and USDA are $0 down, and ITIN loans typically require 10%. I'll find the option that works best for your situation."},
+    {q:"Do you charge fees for your service?", a:"My fee is built into the loan — you don't pay me out of pocket. Plus, I offer a $2,000 best price guarantee: if any competitor offers a better written rate, I'll beat it or pay you $2,000."},
+    {q:"Do you serve Indiana and Wisconsin too?", a:"Yes — I'm licensed in Illinois, Indiana, and Wisconsin. I handle everything remotely via Zoom so you never need to come to an office."},
+    {q:"Can everything be done in Spanish?", a:"100%. Every step of the process — from the initial call to the final closing — can be conducted entirely in Spanish. No translators needed."},
+    {q:"What if I was denied by a bank?", a:"Banks have one product. I have 222+ lenders. Many of my clients were turned down by a bank before calling me. Different lenders have different guidelines — there's almost always a path."},
+  ],
+  es: [
+    {q:"¿Puedo obtener una hipoteca con un número ITIN?", a:"Absolutamente. Me especializo en préstamos ITIN y tengo acceso a más de 75 prestamistas ITIN. Puedes comprar una casa, refinanciar o invertir con tan solo 10% de inicial y puntajes de crédito desde 575 FICO — sin número de Seguro Social."},
+    {q:"Soy trabajador independiente. ¿Puedo calificar?", a:"Sí. Si no muestras mucho ingreso en tus declaraciones de impuestos, uso préstamos por estados de cuenta — 12 a 24 meses de depósitos te califican en lugar de W-2. Es una de mis especialidades."},
+    {q:"¿Qué tan rápido puedo obtener una pre-aprobación?", a:"En la mayoría de los casos, el mismo día. Una vez que recibo tus documentos, puedo entregar una carta de pre-aprobación rápidamente. En mercados competitivos, la velocidad lo es todo."},
+    {q:"¿Cuál es el pago inicial mínimo?", a:"Depende del tipo de préstamo. FHA requiere 3.5%, convencional puede ser tan bajo como 3%, VA y USDA son $0, y los préstamos ITIN típicamente requieren 10%. Encontraré la opción que mejor funcione para tu situación."},
+    {q:"¿Cobras honorarios por tu servicio?", a:"Mi honorario está incluido en el préstamo — no me pagas de tu bolsillo. Además, ofrezco una garantía de mejor precio de $2,000: si algún competidor ofrece una mejor tasa por escrito, la supero o te pago $2,000."},
+    {q:"¿También atiendes Indiana y Wisconsin?", a:"Sí — tengo licencia en Illinois, Indiana y Wisconsin. Manejo todo de forma remota por Zoom, así que nunca necesitas ir a una oficina."},
+    {q:"¿Todo se puede hacer en español?", a:"100%. Cada paso del proceso — desde la llamada inicial hasta el cierre final — se puede realizar completamente en español. Sin necesidad de traductores."},
+    {q:"¿Qué pasa si un banco me rechazó?", a:"Los bancos tienen un solo producto. Yo tengo más de 222 prestamistas. Muchos de mis clientes fueron rechazados por un banco antes de llamarme. Diferentes prestamistas tienen diferentes criterios — casi siempre hay un camino."},
+  ]
+};
+
+function buildFaq(){
+  const isEs = document.body.classList.contains('lang-es');
+  const data = isEs ? faqs.es : faqs.en;
+  const list = document.getElementById('faqList');
+  if(!list) return;
+  list.innerHTML = data.map((f,i)=>`
+    <div class="faq-item" onclick="toggleFaq(${i})">
+      <div class="faq-q">
+        <span>${f.q}</span>
+        <span class="faq-icon" id="ficon${i}">+</span>
+      </div>
+      <div class="faq-a" id="fans${i}">${f.a}</div>
+    </div>
+  `).join('');
+}
+
+function toggleFaq(i){
+  const a=document.getElementById('fans'+i);
+  const icon=document.getElementById('ficon'+i);
+  const open=a.style.maxHeight && a.style.maxHeight!=='0px';
+  // close all
+  document.querySelectorAll('.faq-a').forEach(el=>el.style.maxHeight='0px');
+  document.querySelectorAll('.faq-icon').forEach(el=>el.textContent='+');
+  if(!open){ a.style.maxHeight=a.scrollHeight+'px'; icon.textContent='−'; }
+}
+
+buildFaq(); // init
+
+// ── SOCIAL PROOF TOASTS ───────────────────────────────────────────────────────
+const proofs_en=[
+  "🏡 Maria from Chicago just got pre-approved!",
+  "✅ Carlos locked in a rate — saved $180/mo vs his bank",
+  "📋 A family in Hammond, IN closed with ITIN in 28 days",
+  "⭐ Roberto refinanced and lowered his rate by 1.2%",
+  "🎉 First-time buyer in Milwaukee just got the keys!",
+];
+const proofs_es=[
+  "🏡 ¡María de Chicago acaba de ser pre-aprobada!",
+  "✅ Carlos aseguró su tasa — ahorró $180/mes vs su banco",
+  "📋 Una familia en Hammond, IN cerró con ITIN en 28 días",
+  "⭐ Roberto refinanció y bajó su tasa 1.2%",
+  "🎉 ¡Comprador de primera vez en Milwaukee acaba de recibir las llaves!",
+];
+
+let proofIdx=0;
+function showProof(){
+  const isEs=document.body.classList.contains('lang-es');
+  const msgs=isEs?proofs_es:proofs_en;
+  let box=document.getElementById('proofBox');
+  if(!box){
+    box=document.createElement('div');
+    box.id='proofBox';
+    box.style.cssText='position:fixed;bottom:80px;left:20px;background:#fff;border:1.5px solid var(--border);border-radius:12px;padding:12px 16px;font-size:13px;color:var(--text);font-weight:600;z-index:998;box-shadow:0 4px 20px rgba(0,0,0,.12);max-width:280px;transition:opacity .4s,transform .4s;opacity:0;transform:translateY(10px)';
+    document.body.appendChild(box);
+  }
+  box.textContent=msgs[proofIdx%msgs.length];
+  proofIdx++;
+  box.style.opacity='1'; box.style.transform='translateY(0)';
+  setTimeout(()=>{ box.style.opacity='0'; box.style.transform='translateY(10px)'; },4000);
+}
+// Show first one after 8 seconds, then every 15s
+setTimeout(()=>{ showProof(); setInterval(showProof,15000); }, 8000);
+
+// ── SCROLL REVEAL ─────────────────────────────────────────────────────────────
+const obs=new IntersectionObserver((entries)=>{
+  entries.forEach(e=>{if(e.isIntersecting){e.target.style.opacity='1';e.target.style.transform='translateY(0)'}});
+},{threshold:0.08});
+document.querySelectorAll('.wc,.lc,.rc,.proc-card,.sp-card,.vs-row').forEach(el=>{
+  el.style.opacity='0';el.style.transform='translateY(16px)';
+  el.style.transition='opacity .45s ease,transform .45s ease';
+  obs.observe(el);
+});
+
+// ── NATIVE BILINGUAL FORM SUBMIT → GHL Webhook ───────────────────────────────
+async function submitNativeForm(e){
+  e.preventDefault();
+  const isEs = document.body.classList.contains('lang-es');
+  const btn = document.getElementById('submitBtn');
+  const consent = document.getElementById('f-consent');
+
+  // Validate consent checkbox
+  if(!consent.checked){
+    consent.closest('div').style.border = '1.5px solid #EF4444';
+    setTimeout(()=>consent.closest('div').style.border='1px solid var(--border)',2500);
+    return;
+  }
+
+  // Validate phone (required)
+  const phone = document.getElementById('f-ph').value.trim();
+  if(!phone){
+    document.getElementById('f-ph').style.borderColor='#EF4444';
+    setTimeout(()=>document.getElementById('f-ph').style.borderColor='',2500);
+    return;
+  }
+
+  // Show loading state
+  const orig = btn.innerHTML;
+  btn.innerHTML = isEs ? '⏳ Enviando...' : '⏳ Sending...';
+  btn.disabled = true;
+
+  const payload = {
+    firstName:   document.getElementById('f-fn').value.trim(),
+    lastName:    document.getElementById('f-ln').value.trim(),
+    phone:       phone,
+    email:       document.getElementById('f-em').value.trim(),
+    loanPurpose: document.getElementById('f-pu').value,
+    idType:      document.getElementById('f-id').value,
+    ficoRange:   document.getElementById('f-fi').value,
+    source:      'matosmortgages.com',
+    language:    isEs ? 'Spanish' : 'English',
+    consentSMS:  true
+  };
+
+  try {
+    await fetch('https://services.leadconnectorhq.com/hooks/goXZkGNT08b47J0VPFKT/webhook-trigger/4efe811f-c08a-4878-8fe8-a3f6873b9d56', {
+      method: 'POST',
+      mode: 'no-cors',
+      headers: {'Content-Type': 'application/json'},
+      body: JSON.stringify(payload)
+    });
+  } catch(err) { /* no-cors swallows errors — lead still sends */ }
+
+  // Success state
+  btn.innerHTML = isEs ? '✅ ¡Recibido! Edwin te contactará pronto.' : '✅ Received! Edwin will reach out shortly.';
+  btn.style.background = 'var(--green)';
+  document.getElementById('leadForm').reset();
+  setTimeout(()=>{ btn.innerHTML=orig; btn.style.background=''; btn.disabled=false; }, 5000);
+}
+</script>
+
+<!-- MOBILE BOTTOM BAR -->
+<div class="mob-bar">
+  <a href="tel:2242577978" class="mob-call">📞 <span class="en-i">Call Now</span><span class="es-i">Llamar</span></a>
+  <a href="#widget" class="mob-book">📅 <span class="en-i">Book Free Call</span><span class="es-i">Reservar Gratis</span></a>
+</div>
+
+<!-- GHL Chat Widget (required for A2P compliance) -->
+<script src="https://widgets.leadconnectorhq.com/loader.js" 
+  data-resources-url="https://widgets.leadconnectorhq.com/chat-widget/loader.js" 
+  data-widget-id="goXZkGNT08b47J0VPFKT"></script>
+</body>
+</html>
